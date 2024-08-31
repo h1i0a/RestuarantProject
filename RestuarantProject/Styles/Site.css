@@ -1,0 +1,370 @@
+﻿body {
+    background: #b6b7bc;
+    font-size: medium;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+a:link, a:visited {
+    color: #034af3;
+}
+
+a:hover {
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #034af3;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+    font-size: medium;
+    color: #666666;
+    font-variant: normal;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2 {
+    margin-top: 0px;
+}
+
+/* PRIMARY LAYOUT ELEMENTS */
+.container {
+    background: white;
+    height: auto;
+    width: auto;
+    float: left;
+    padding: 5px;
+}
+
+.blue, .yellow, .orange {
+    background: white;
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 5px;
+}
+
+.page {
+    background-color: #fff;
+    margin: 0px auto;
+    border: 1px solid #496077;
+}
+
+.header {
+    position: static;
+    margin: 0px;
+    padding: 0px;
+    background-color: #b7b7b7;
+    width: 100%;
+}
+
+    .header h1 {
+        font-weight: 700;
+        margin: 0px;
+        padding: 0px 0px 0px 20px;
+        color: #f9f9f9;
+        border: none;
+        line-height: 2em;
+        font-size: medium;
+    }
+
+.main {
+    padding: 0px 12px;
+    min-height: 420px;
+    width: 100%;
+    background-color: #fff;
+    margin: 50px 0px 0px 0px;
+    border: none;
+}
+
+.leftCol {
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.rigthhSide {
+    width: 400px;
+    background-color: black;
+    float: right;
+    padding: 8px 0px 0px 0px;
+    min-height: 420px;
+    margin: 50px auto;
+    text-align: center;
+    line-height: normal;
+    border: 1px solid #496077;
+}
+
+/* TAB MENU */
+div.hideSkiplink {
+    background-color: #3a4f63;
+    width: 100%;
+    position: absolute;
+}
+
+div.menu {
+    padding: 4px 0px 4px 8px;
+}
+
+    div.menu ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+    }
+
+        div.menu ul li a, div.menu ul li a:visited {
+            background-color: #465c71;
+            border: 1px #4e667d solid;
+            color: #dde4ec;
+            display: block;
+            line-height: 1.35em;
+            padding: 4px 20px;
+            text-decoration: none;
+            white-space: nowrap;
+            font-size: medium;
+        }
+
+/* FORM ELEMENTS */
+fieldset {
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+    fieldset p {
+        margin: 2px 12px 10px 10px;
+    }
+
+    fieldset.login label, fieldset.register label, fieldset.changePassword label {
+        display: block;
+    }
+
+    fieldset label.inline {
+        display: inline;
+    }
+
+legend {
+    font-size: medium;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry, input.passwordEntry {
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo {
+    width: 42%;
+}
+
+/* MISC */
+.clear {
+    background-color: white;
+    clear: both;
+}
+
+.title {
+    display: block;
+    background-color: #b7b7b7;
+    text-align: left;
+    width: auto;
+    font-size: medium;
+}
+
+.loginDisplay {
+    font-size: medium;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: #3a4f63;
+    background-color: green;
+}
+
+    .loginDisplay a:link {
+        color: #3a4f63;
+    }
+
+    .loginDisplay a:visited {
+        color: #034af3;
+    }
+
+    .loginDisplay a:hover {
+        color: #666666;
+    }
+
+.failureNotification {
+    font-size: medium;
+    color: Red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.submitButton {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#Export, #Export ImageButton {
+    background-color: silver;
+    width: 79%;
+}
+
+#CertTender {
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    font-family: Verdana;
+}
+
+div.PageTitle {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    width: 100%;
+}
+
+div.certCompletionTCaption {
+    text-align: right;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: medium;
+    font-weight: 600;
+    direction: rtl;
+}
+
+div.span.certCompletionTData {
+    text-align: right;
+    color: black;
+    font-weight: 200;
+    color: gray;
+    font-family: 'Times New Roman';
+    font-size: medium;
+}
+
+div.myGv {
+    text-align: right;
+    color: black;
+    background-color: white;
+    border-color: yellow;
+}
+
+div#myGv {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-color: yellow;
+    text-align: right;
+    color: black;
+}
+
+.myPageContent {
+    border-style: none;
+    border-width: inherit;
+    padding: 30px;
+    margin: 1px;
+    color: red;
+    font-family: 'Times New Roman';
+    font-size: medium;
+}
+
+.KfmcBg {
+    background-repeat: no-repeat;
+    background-image: url('../images/KfmcTemplate.jpg');
+}
+
+#myVendorDetail {
+    /*text-align: right;*/
+}
+
+.InputForm {
+    border-style: solid;
+    border-color: gray;
+    border-width: inherit;
+    padding: 2px;
+    margin: 1px;
+    background-color: lightblue;
+    height: auto;
+    width: 40%;
+    text-align: left;
+}
+
+.myFormCaption {
+    display: block;
+    float: left;
+    color: black;
+    font-size: medium;
+    margin-right: 5px;
+    width: 8em;
+    text-align: right;
+}
+
+.myFormInputControls {
+    display: block;
+    float: left;
+    width: 200px;
+    font-weight: bold;
+}
+
+.myFormOutput {
+    display: block;
+    float: left;
+    text-align: left;
+    width: inherit;
+}
+
+/* Responsive GridView */
+.grid-view {
+    width: 100%;
+    overflow-x: auto;
+}
+
+    .grid-view table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .grid-view th, .grid-view td {
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    .grid-view th {
+        background-color: #f2f2f2;
+    }
+
+    .grid-view tr:hover {
+        background-color: #f1f1f1;
+    }
+
+@media (max-width: 768px) {
+    .grid-view th, .grid-view td {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .grid-view tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
