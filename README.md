@@ -55,19 +55,6 @@ Update the connection string in the project if required.
 
 Build and run the project from Visual Studio.
 
-📂 Project Structure
-graphql
-Copy
-Edit
-├── .gitattributes
-├── .gitignore
-├── Database backup.bak      # SQL Server database backup
-├── RestuarantProject.sln    # Visual Studio solution file
-├── [Project Source Files]
-└── README.md
-📸 Screenshots (Optional)
-Add screenshots here to showcase the system’s UI once available.
-
 🤝 Contribution
 This project was developed as a Co-op Training Project.
 Contributions are welcome – feel free to fork and create pull requests if you’d like to enhance it.
